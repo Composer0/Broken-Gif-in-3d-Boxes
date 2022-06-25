@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>3d Background Boxes</title>
+</head>
+
+<body>
+    <!--Boxes are hardcoded during the initial setup to help provide visual for what intended outcome is to be.  -->
+    <button id="btn" class="magic">Click Me!</button>
+    <div id="boxes" class="boxes big">
+        <div class="box" style="background-position: 0 0"></div>
+        <div class="box" style="background-position: -125px 0"></div>
+        <div class="box" style="background-position: -250px 0"></div>
+        <div class="box" style="background-position: -375px 0"></div>
+        <div class="box" style="background-position: 0 -125px"></div>
+        <div class="box" style="background-position: -125px -125px"></div>
+        <div class="box" style="background-position: -250px -125px"></div>
+        <div class="box" style="background-position: -375px -125px"></div>
+        <div class="box" style="background-position: 0 -250px"></div>
+        <div class="box" style="background-position: -125px -250px"></div>
+        <div class="box" style="background-position: -250px -250px"></div>
+        <div class="box" style="background-position: -375px -250px"></div>
+        <div class="box" style="background-position: 0 -375px"></div>
+        <div class="box" style="background-position: -125px -375px"></div>
+        <div class="box" style="background-position: -250px -375px"></div>
+        <div class="box" style="background-position: -375px -375px"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <p>Brought to life by Orion Palmer</p>
+</footer>
+
+</html>
